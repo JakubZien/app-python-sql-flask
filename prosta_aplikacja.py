@@ -34,6 +34,6 @@ def submit():
         return 'Dane zapisane!'
     return 'Błąd zapisu danych.'
 
-if __name__ == '__main__': # sprawdzam czy plik został uruchomiony jako skrypt
+if __name__ == '__main__': 
     create_table()
     app.run(debug=True) # uruchamia Flask
